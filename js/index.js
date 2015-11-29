@@ -1,3 +1,4 @@
+$(document).ready(function() {
 // Global variables
 var arr = [];
 var result = 0;
@@ -267,3 +268,4 @@ $(".equal").on("click", function() {
     start = false;
   }
   });
+});
