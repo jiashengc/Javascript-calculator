@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);
+
+html,
+body {
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.cal-header {
+  text-align: center;
+  color: #383838;
+}
+
+.cal-header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+}
+
+.cal-header h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+.calculator {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.calculator-body {
+  background: #808080;
+  width: 300px;
+  height: 320px;
+  padding: 25px;
+  border: 2px solid #A8A8A8;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #505050;
+}
+
+.calculator-screen {
+  background: #C8C8C8;
+  width: 250px;
+  height: 80px;
+  border: 1px solid #D0D0D0;
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px #505050;
+}
+
+.calculator-screen-input {
+  width: 240px;
+  height: 70px;
+  padding-top: 27px;
+  text-align: right;
+}
+
+.calculator-input {
+  font-size: 33px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.calculator-buttons {
+  padding-top: 10px;
+}
+
+.btn {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.btn-group-vertical {
+  padding-top: 20px;
+  padding-bottom: 15px
+}
